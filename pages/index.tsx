@@ -6,6 +6,9 @@ import logo from '../assets/images/hero3.png'
 import { Companies } from '../components/Companies'
 import { FeaturesLeft } from '../components/FeaturesLeft'
 import { FeaturesRight } from '../components/FeaturesRight'
+import { SectionOne } from '../components/SectionOne'
+import { SectionTwo } from '../components/SectionTwo'
+import { Download } from '../components/Download'
 
 
 const Home: NextPage = () => {
@@ -23,6 +26,11 @@ const Home: NextPage = () => {
         <div className='px-8 md:px-0 md:w-2/3 mx-auto flex flex-col space-y-5 md:space-y-0 md:flex-row items-center justify-between md:space-x-8 py-10'>
           <FeaturesLeft />
           <FeaturesRight />
+        </div>
+        <SectionOne />
+        <SectionTwo />
+        <div className='bg-green-100'>
+          <Download />
         </div>
       </div>
     </div>
