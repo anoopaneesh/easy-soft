@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         </div>
         <SectionOne />
         <SectionTwo />
-        <div className='bg-green-100'>
+        <div className='bg-green-100 w-full'>
           <Download />
         </div>
       </div>
