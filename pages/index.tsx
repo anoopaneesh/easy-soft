@@ -9,6 +9,7 @@ import { FeaturesRight } from '../components/FeaturesRight'
 import { SectionOne } from '../components/SectionOne'
 import { SectionTwo } from '../components/SectionTwo'
 import { Download } from '../components/Download'
+import { Footer } from '../components/Footer'
 
 
 const Home: NextPage = () => {
@@ -31,6 +32,7 @@ const Home: NextPage = () => {
         <SectionTwo />
         <div className='bg-green-100 w-full'>
           <Download />
+          <Footer />
         </div>
       </div>
     </div>
